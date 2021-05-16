@@ -1,0 +1,10 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+  }
+  .table-striped{
+    margin-left: auto; 
+    margin-right: auto;
+  }
