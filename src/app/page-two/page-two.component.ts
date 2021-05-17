@@ -20,7 +20,7 @@ export class PageTwoComponent implements OnInit {
   chartData = [];
   @ViewChild('charts') public chartEl: ElementRef;
  
-  regions ={};
+  
 
         data:any = [];
 
@@ -32,7 +32,7 @@ export class PageTwoComponent implements OnInit {
             type: 'pie'
             },
             title: {
-            text: 'population according to regions'
+            text: 'Population According To Regions'
             },
             tooltip: {
             pointFormat: '{point.name}: <b>{point.percentage:.1f}%</b>'

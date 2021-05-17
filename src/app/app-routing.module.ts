@@ -4,6 +4,7 @@ import { PageOneComponent } from './page-one/page-one.component';
 import { PageTwoComponent } from './page-two/page-two.component';
 
 const routes: Routes = [
+  {path:'', component: PageOneComponent},
   {path:'page-one', component: PageOneComponent},
   {path:'page-two', component: PageTwoComponent}
 ];
