@@ -108,7 +108,6 @@ getData(){
            })
         }
         this.createChart();
-      
   })
 },6000);
 }
